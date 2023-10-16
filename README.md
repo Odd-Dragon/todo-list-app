@@ -1,14 +1,10 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+I'm trying to learn TypeScript to expand my versatility- it's slow going, but definitely interesting!
 
-{Provide a description of the software that you wrote to demonstrate the TypeScript language.}
+I initially wanted to make a game, but I had a time limit, so this was the next best thing, and I initially wanted to make it because it would be easy to tell if I'd done everything right.
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+It was purely a learning exercise- I wanted to see if I could do it, and how long it would take. It also gives me a basic understanding of some things I know I'll use in future projects, like a D&D character sheet populator.
 
 # Development Environment
 Following this tutorial (https://www.youtube.com/watch?v=jBmrduvKl5w) I initially built the app framework by hand, but then redid it with snowpack.
@@ -38,6 +34,6 @@ The following are some of the sites I used for reference and tutorials initially
 
 I plan to keep working with typescript in the future, and I plan to add more functionality in the form of:
 
-- Item 1
-- Item 2
-- Item 3
+- Fixing the current nonfunctionality in the list-making portion
+- Possible gamification- I'd love to have a cute little character or emoji to reward users for completing tasks
+- Better formatting, or maybe different ways of reporting/recording tasks

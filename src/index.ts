@@ -21,9 +21,10 @@ const form= document.getElementById("#new-task-form") as HTMLFormElement | null;
 const input= document.querySelector<HTMLInputElement>("#new-task-title");
 const tasks: Task[] = []
 tasks.forEach(addListItem)
+
 form?.addEventListener("submit", e => {
   e.preventDefault()
-
+  loadTasks()
   if(input?.value == "" || input?.value == null) return
 
   const newTask: Task = {
@@ -38,6 +39,13 @@ form?.addEventListener("submit", e => {
   input.value = ""
 })
 
+/*Something in this function is not working.
+I've done a lot of troubleshooting (and 
+comparing to other code- it all matches,
+which is maddening) to try to figure 
+out why, but it's just not... doing what 
+it's supposed to. I'm stumped, and this 
+needs to be turned in, so this is what I have. */
 function addListItem(task : Task){
   const item = document.createElement("li")
   const label = document.createElement("label")
